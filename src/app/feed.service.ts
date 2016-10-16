@@ -5,7 +5,8 @@ export class FeedService {
     private feeds = [
         'http://angular-craft.com/feed/',
         'https://www.smashingmagazine.com/feed/',
-        'http://feeds.feedburner.com/thoughtram'
+        'http://feeds.feedburner.com/thoughtram',
+        'http://jp.techcrunch.com/feed/'
     ];
 
     getUserFeeds() {
